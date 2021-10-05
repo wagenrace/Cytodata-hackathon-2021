@@ -32,6 +32,8 @@ We have imaged human iPSC cells on 96-well plates over 2 weeks using the Incucyt
 
 [Dataset](#dataset)
 
+[Who](#dataset)
+
 [When](#when-all-times-in-bst-uk-time)
 
 [Where](#where)
@@ -117,8 +119,17 @@ We are grateful to all the scientists in the Cellular Phenotyping team for suppo
 
 <br/><br/>
 
+## Who?
+
+Over 70 hackathon participants will be grouped in 9 teams. Please select a team by clicking here: [CytoData 2021 - Teams Registration](https://docs.google.com/spreadsheets/d/19BG9SuqtaowQ7qc3F0YIFzv47Y7-RwAlZlvkppntxk4/edit#gid=0) and entering your name and country/timezone. We encourage you to select team members with similar timezones for convenient meeting times.
+
+Feel free to use the Slack channel (LINK?) to add a few words about yourself or a link to your website or workplace. This will be a great chance to meet somebody new who shares your passion for image analysis and computation.
+
+Once you have finalised your teams, please join the corresponding Zoom meeting room below. We will do our best to have one of us in the main lounge 1-6pm uk time. That will give you a chance to ask questions so we all make sure the tasks are clear.
 
 
+
+<br/><br/>
 
 ## When (all times in BST, UK time)
 
