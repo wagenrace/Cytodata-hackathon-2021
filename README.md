@@ -50,7 +50,9 @@ Come up with your own standards to assess the pluripotency of iPSC. Any other br
 ## Prizes
 
 **1. Best score on cluster Test 1**
+
 **2. Best score on cluster Test 2a**
+
 **3. Best jury prize (visualisation-showcasing)**
 
 
