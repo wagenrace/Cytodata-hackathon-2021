@@ -98,7 +98,16 @@ All data can be downlodaed using the following links:
 
 [Test.zip](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/Test.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PYQ7KGDWK%2F20211004%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211004T180937Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3f82c637be9310c3e46cbe2a7fa40b35844c77637121ceec9439ea6e50c8ff83) (27 GB)
 
+If you find the Test.zip too large to download, you can download separately subsets of the Test dataset using links below:
+
+[Test 1.zip](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/Test1.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PYQ7KGDWK%2F20211004%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211004T224009Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ec97be5262980d1022665fd7d34f37555ebead1517734846dc38b926fc9d5963)
+
+[Test 2a.zip](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/Test2a.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PYQ7KGDWK%2F20211004%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211004T223814Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e4ef0dba1ebe24def6d9d059481b3a3202442b0e6556c2983cc85944ef60e9da)
+
+[Test 2b.zip](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/Test2b.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PYQ7KGDWK%2F20211005%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211005T124231Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e1eba66516c8248eb7c077d3c409937ea7036db8915adb3a6289fe7b6fe5669a)
+
 <br/>
+
 
 We have done some preliminary colony segmentation using Cell Profiler. We have not segmented further objects inside each colonies. The measurements for colony segmentation will be found soon in the same folder, in the metadata.csv file. Feel free to use any of the parameters as a starting point to analyse colony pluripotency state: colony area, diameter, circularity, cell distances, cell morphology, any of the above, all the cell profiler features together, etc.
 
