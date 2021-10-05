@@ -57,7 +57,7 @@ Come up with your own standards to assess the pluripotency of iPSC. Any other br
 
 
 
-
+<br/><br/>
 
 ## Dataset
 75 human iPS colonies
@@ -69,7 +69,9 @@ Come up with your own standards to assess the pluripotency of iPSC. Any other br
 Training set (Good - Bad - Empty)
 
 Test1 6550 files -> 13GB (containing time information)
+
 Test2 6550 files -> 13GB (scrambled from time information)
+
 Test3 252 files -> 6GB (images from another device)
 
 All data can be downlodaed using the following links: 
@@ -77,6 +79,8 @@ All data can be downlodaed using the following links:
 [Training.zip](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/Training.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PYQ7KGDWK%2F20211004%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211004T145706Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d91993d2e38ba2da13a2bd6d68a7ab8ad1990104d5c0dd005750128bb6381d8e) (4.7 GB)
 
 [Test.zip](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/Test.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PYQ7KGDWK%2F20211004%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211004T180937Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3f82c637be9310c3e46cbe2a7fa40b35844c77637121ceec9439ea6e50c8ff83) (27 GB)
+
+<br/>
 
 We have done some preliminary colony segmentation using Cell Profiler. We have not segmented further objects inside each colonies. The measurements for colony segmentation will be found soon in the same folder, in the metadata.csv file. Feel free to use any of the parameters as a starting point to analyse colony pluripotency state: colony area, diameter, circularity, cell distances, cell morphology, any of the above, all the cell profiler features together, etc.
 
