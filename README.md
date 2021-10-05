@@ -32,7 +32,7 @@ We have imaged human iPSC cells on 96-well plates over 2 weeks using the Incucyt
 
 [Dataset](#dataset)
 
-[Who](#dataset)
+[Who](#who)
 
 [When](#when-all-times-in-bst-uk-time)
 
