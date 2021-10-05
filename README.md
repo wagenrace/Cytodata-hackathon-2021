@@ -1,26 +1,60 @@
-# CytoData-2021 Challenge 
-Welcome to CytoData Hackathon 2021! 
+
+# Welcome to CytoData Hackathon 2021! 
+
+Welcome to Cytodata Hackathon 2021. Grab a cup of your favourite drink and join us in a journey that will bring you to learn new skills, make new friends and put your quantitative skills to the test dealing with an interesting challenge in stem cells.
+
+<br/>
+
+Pluripotency is the capacity of certain stem cells to give rise to virtually any cell of the body. Pluripotent cells can be taken from the early stages of development or induced through transduction of specific transcription factors (reprogramming).
+
+Human iPSC (induced pluripotent stem cells) continuously face a choice between making exact copies of themselves (‘self-renew’), or turn into any human cell type (‘differentiation’), providing great potential for research and therapeutic uses.
+
+Cell death or loss of pluripotency are common in iPSC culturing. Thus, assessing cell state (e.g. good/pluripotent or bad/differentiated) is a critical step in stem cell research, both in academia (to study them) or in biotech (for quality control).
+
+<br/>
+
+This year, we challenge you to build pipelines that can analyse and assess the pluripotency of iPSC based just on phase microscopy images. The result of this hackathon could lead to more efficient processes in iPSC culturing and analysis.
+
+Please note that single cells make colonies over time when dividing, so feel free to take full advantage of cell morphology and colony morphology and to include context features such as how distant cells are to each other over time, etc..
+
+We have imaged human iPSC cells on 96-well plates over 2 weeks using the Incucyte time-lapse imaging system. For your convenience we provide a training set as divided below: 
+* ‘Good’: Colonies with pluripotent cells
+* ‘Bad’: Colonies with differentiated cells
+* ‘Empty’: Empty wells with no cells or very few
+
+<br/><br/>
 
 
-iPSC can be differentiated into any human cell type, providing great potential for research and therapeutic uses. Cell death or loss of pluripotency are common issues in iPSC culturing. Thus, selecting ‘good’ colonies with homogenous population and well-defined edges to carry forward is a critical quality control step in iPSC research.
+## Challenges
+The CytoData Hackathon 2021 presents 3 challenges for your quantitative minds.
+Please use our standardised format sheet for reporting your clustering prediction.
+
+### Challenge 1: 
+Using the dataset in the ‘Training’ folder, cluster the images in the ‘Test 1’ folders correctly into ‘Good’ and ‘Bad’ categories. Teams which clustered the most images correctly will get the highest score.
+
+### Challenge 2a:
+How generalisable is your algorithm? Can it assess images independent of the time point on a single image? Please use your algorithm to cluster the images in the ‘Test 2a’ folder. Teams with the most images correctly clustered will get the highest score.
+
+### Challenge 2b:
+Does your algorithm work on assessing images in the ‘Test 2b’ folder, which are acquired using another imaging device called VIPS (Verified In-situ Plate Seeding)?
+
+### Challenge 2c:
+Can you obtain spatial information from the images? Would you be able to tell which part of the colony is good and which part is bad for the images in ‘Test 1’, ‘Test 2a’ and ‘Test 2b’ folders? 
+
+### Challenge 2d:
+Come up with your own standards to assess the pluripotency of iPSC. Any other bright idea welcome, let your imagination run, the sky's the limit. The aim is to have a feedback loop on the culture status that could be used as a quality control.
 
 
-This year, we challenge you to build an image analysis pipeline that can accurately predict ‘good’ colony formation from an early stage of development (ie. A few hours/days after seeding). The result of this hackathon could lead to a much more efficient quality control process in iPSC culturing. 
+<br/><br/>
+
+## Prizes
+
+**1. Best score on cluster Test 1**
+**2. Best score on cluster Test 2a**
+**3. Best jury prize (visualisation-showcasing)**
 
 
-We have imaged BobC and KOLF iPSC cell lines on 96-well plates using VIPS (Verified In-situ Plate Seeding) and Incucyte time-lapse imaging systems. We then classified the images as ‘good’ ‘bad’ or ‘ugly’ colonies based on these criteria: 
-* ‘Good’: one or more healthy colonies containing homogenous population
-* ‘Bad’: colonies with stress (eg. differentiating factors) introduced during development 
-* ‘Ugly’: no colony formation because of cell death
 
-
-
-
-## Challenge
-You are given both VIPS and Incucyte datasets in the TRAIN folder with images taken over 2 weeks. We have done some preliminary colony segmentation using Cell Profiler. The goal of the challenge is to analyse the pluripotency of these colonies and successfully predict ‘good’, ‘bad’ or ‘ugly’ colonies from the early-stage images in the TEST folder. 
-
-
-The following parameters can be used as a starting point to analyse colony quality: colony area, diameter, circularity, cell distances etc. 
 
 
 ## Data
