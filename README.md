@@ -1,7 +1,7 @@
 
 # Welcome to CytoData Hackathon 2021! 
 
-Welcome to Cytodata Hackathon 2021. Grab a cup of your favourite drink and join us in a journey that will bring you to learn new skills, make new friends and put your quantitative skills to the test dealing with an interesting challenge in stem cells.
+Welcome to Cytodata Hackathon 2021. Grab a cup of your favourite drink and join us in a journey that will bring you to learn new skills, make new friends and put your quantitative skills to the test while dealing with an interesting challenge in stem cells.
 
 <br/>
 
@@ -13,14 +13,18 @@ Cell death or loss of pluripotency are common in iPSC culturing. Thus, assessing
 
 <br/>
 
-This year, we challenge you to build pipelines that can analyse and assess the pluripotency of iPSC based just on phase microscopy images. The result of this hackathon could lead to more efficient processes in iPSC culturing and analysis.
-
-Please note that single cells make colonies over time when dividing, so feel free to take full advantage of cell morphology and colony morphology and to include context features such as how distant cells are to each other over time, etc..
-
-We have imaged human iPSC cells on 96-well plates over 2 weeks using the Incucyte time-lapse imaging system. For your convenience we provide a training set as divided below: 
 * ‘Good’: Colonies with pluripotent cells
 * ‘Bad’: Colonies with differentiated cells
-* ‘Empty’: Empty wells with no cells or very few
+* ‘Empty’: Empty wells, no or very few cells
+
+We imaged human iPSC cells on 96-well plates over 2 weeks using the Incucyte and VIPS time-lapse imaging devices. For your convenience we provide a training set divided as above in good, bad, empty and test sets with real-life examples.
+
+Images will have single cells from early timepoints dividing to make colonies over time; feel free to take full advantage of cell morphology, colony morphology and/or context features such as how distant cells are to each other over time, etc..
+
+This year, we challenge you to build pipelines that can analyse and assess the pluripotency of iPSC based just on phase microscopy images. The result of this hackathon could lead to more efficient processes in iPSC culturing and analysis.
+
+
+
 
 <br/><br/>
 
@@ -46,28 +50,32 @@ We have imaged human iPSC cells on 96-well plates over 2 weeks using the Incucyt
 <br/><br/>
 
 ## Challenges
-The CytoData Hackathon 2021 presents 3 challenges for your quantitative minds.
-Please use our standardised format sheet for reporting your clustering prediction.
+The CytoData Hackathon 2021: 3 challenges for your quantitative/qualitative minds. Please use our standardised format sheet for reporting your clustering predictions. Evaluations will have two quantitative scores and one qualitative jury prize. 
+
 
 ### Challenge 1: 
 Using the dataset in the ‘Training’ folder, cluster the images in the ‘Test 1’ folders correctly into ‘Good’ and ‘Bad’ categories. Teams which clustered the most images correctly will get the highest score.
 
+
 ### Challenge 2a:
 How generalisable is your algorithm? Can it assess images independent of the time point on a single image? Please use your algorithm to cluster the images in the ‘Test 2a’ folder. Teams with the most images correctly clustered will get the highest score.
 
+
 ### Challenge 2b:
-Does your algorithm work on assessing images in the ‘Test 2b’ folder, which are acquired using another imaging device called VIPS (Verified In-situ Plate Seeding)?
+Does your algorithm work on assessing images in the ‘Test 2b’ folder, which are acquired using another imaging device called VIPS (Verified In-situ Plate Seeding). This will give some insights into how agnostic of the device type your algorithms are.
 
 ### Challenge 2c:
-Can you obtain spatial information from the images? Would you be able to tell which part of the colony is good and which part is bad for the images in ‘Test 1’, ‘Test 2a’ and ‘Test 2b’ folders? 
+Can you obtain spatial information from the images? Would you be able to tell which part of the colony is good and which part is bad for the images in our folders? You can start from training test1 and move onto the others too. 
 
-### Challenge 2d:
-Come up with your own standards to assess the pluripotency of iPSC. Any other bright idea welcome, let your imagination run, the sky's the limit. The aim is to have a feedback loop on the culture status that could be used as a quality control.
 
+### Challenge 3:
+Come up with your own standards to assess the pluripotency of iPSC. Any other bright idea welcome, let your imagination run, the sky's the limit. The aim is to have a feedback loop clustering in good/bad the culture status to be used for quality control.
 
 <br/><br/>
 
 ## Prizes
+
+Consist in a combination of cytodata glory, legendary bit.bio mugs, other surprises
 
 **1. Best score on cluster Test 1**
 
@@ -113,19 +121,18 @@ If you find the Test.zip too large to download, you can download separately subs
 <br/>
 
 
-We have done some preliminary colony segmentation using Cell Profiler. We have not segmented further objects inside each colonies. The measurements for colony segmentation will be found soon in the same folder, in the metadata.csv file. Feel free to use any of the parameters as a starting point to analyse colony pluripotency state: colony area, diameter, circularity, cell distances, cell morphology, any of the above, all the cell profiler features together, etc.
+We have done some preliminary colony segmentation using Cell Profiler. We have not segmented further objects inside each colony. The measurements for colony segmentation will be found in the same folders, as .csv files. Feel free to use any of the parameters as a starting point to analyse colony pluripotency state: colony area, diameter, circularity, cell distances, cell morphology, any of the above, combined cell profiler features, multidimensional hyperspaces, etc.
 
-We are grateful to all the scientists in the Cellular Phenotyping team for support. The experiments for the Hackathon image dataset were generated by Sarah Hussain, Stefan Milde, Fiona Connolly at bit.bio using Sartorius Incucyte and VIPS devices.
+Thanks to Cytodata and all scientists in our Cellular Phenotyping team for support. The experiments for this dataset were set up and acquired by Sarah Hussain, Stefan Milde, Fiona Connolly at bit.bio using Sartorius Incucyte and VIPS devices.
+
 
 <br/><br/>
 
 ## Who?
 
-Over 70 hackathon participants will be grouped in 9 teams. Please select a team by clicking here: [CytoData 2021 - Teams Registration](https://docs.google.com/spreadsheets/d/19BG9SuqtaowQ7qc3F0YIFzv47Y7-RwAlZlvkppntxk4/edit#gid=0) and entering your name and country/timezone. We encourage you to select team members with similar timezones for convenient meeting times.
+Over 70 hackathon participants will be grouped in 9 teams. Please select a team by clicking here: [CytoData 2021 - Teams Registration](https://docs.google.com/spreadsheets/d/19BG9SuqtaowQ7qc3F0YIFzv47Y7-RwAlZlvkppntxk4/edit#gid=0), enter your name and timezone. We encourage you to select team members on similar timezones.
 
-Feel free to use the [CytoData Slack channel](https://cytodata.slack.com/ssb/redirect#/shared-invite/email) to add a few words about yourself or a link to your website or workplace. This will be a great chance to meet somebody new who shares your passion for image analysis and computation.
-
-Once you have finalised your teams, please join the corresponding Zoom meeting room below. We will do our best to have one of us in the main lounge 1-6pm uk time. That will give you a chance to ask questions so we all make sure the tasks are clear.
+Feel free to use the [Slack channel](https://cytodata.slack.com/ssb/redirect#/shared-invite/email) to add a few words about yourself or a link to your website or workplace. Great chance to meet up sharing your passion for image analysis and computation.
 
 
 
@@ -134,74 +141,51 @@ Once you have finalised your teams, please join the corresponding Zoom meeting r
 ## When (all times in BST, UK time)
 
 Wednesday 6th October:
- - 13:00-14:00: Dataset released and brief introduction.
+ - Dataset and instructions released.
+ - Please make sure you can download the data and read me.
+
 
 Friday 8th October:
- - 13:00-14:00: Refresher for dataset background.
+ - 13:00-14:00: Introduction to dataset.
  - 14:00-16:00: Open desk for participants to ask questions.
+
 
 Monday 11th October:
  - 13:00-14:00: Refresher for dataset background.
  - 14:00-16:00: Open desk for participants to ask questions.
 
+
 Wednesday 13th October:
+ - 13:00-16:30: Cytodata conference
  - 16:30-18:00: Supervised hacking.
+
 
 Thursday 14th October:
+ - 13:00-16:30: Cytodata conference
  - 16:30-18:00: Supervised hacking.
 
+
 Friday 15th October:
- - 13:00-14:00: Supervised hacking.
+ - 13:00-14:00: Supervised hacking wrap up.
  - 14:00-17:00: All hackers to showcase their work.
  - 17:00-17:30: The Jury gathers
  - 17:30-18:00: Closure ceremony and winners communicated
+
 
 
 <br/><br/>
 
 ## Where?
 
+**Conference Zoom channel**
+
+
 **Main Zoom channel for Hackathon**
 
-[https://us02web.zoom.us/j/89753772712?pwd=K2xncHVicEx6anhPR3ZjOGY0QUxpQT09](https://us02web.zoom.us/j/89753772712?pwd=K2xncHVicEx6anhPR3ZjOGY0QUxpQT09)
+[https://us02web.zoom.us/j/89647782734?pwd=Nmx5d1VSazdZZlRZRXNyQmhML2N5dz09](https://us02web.zoom.us/j/89647782734?pwd=Nmx5d1VSazdZZlRZRXNyQmhML2N5dz09)
 
-**Team Zoom channels**
+Once you have finalised your teams, please join the corresponding Zoom breakout room in the link above. We will do our best to have one of us 1-6pm UK time. That will give you a chance to ask questions so we all make sure the tasks are clear.
 
-Team 1:
-
-[https://us02web.zoom.us/j/83167550073?pwd=N2IrTlZHZC9mZm1ITThJOUdNRElNQT09](https://us02web.zoom.us/j/83167550073?pwd=N2IrTlZHZC9mZm1ITThJOUdNRElNQT09)
-
-Team 2:
-
-[https://us02web.zoom.us/j/83553958700?pwd=MnE5NGJQQ1FWVWlUZWMyd1haUURIQT09](https://us02web.zoom.us/j/83553958700?pwd=MnE5NGJQQ1FWVWlUZWMyd1haUURIQT09)
-
-Team 3:
-
-[https://us02web.zoom.us/j/83713948743?pwd=T0xTLzdwMkJRWENxM3JhMVI1MS9mZz09](https://us02web.zoom.us/j/83713948743?pwd=T0xTLzdwMkJRWENxM3JhMVI1MS9mZz09)
-
-Team 4:
-
-[https://us02web.zoom.us/j/83935588368?pwd=ditCQitmVzdiQklCcEc1V0JPaGs5dz09](https://us02web.zoom.us/j/83935588368?pwd=ditCQitmVzdiQklCcEc1V0JPaGs5dz09)
-
-Team 5: 
-
-[https://us02web.zoom.us/j/84016626657?pwd=dlJ2aFU4MEJISU1nS3hYSW5LQVFmQT09](https://us02web.zoom.us/j/84016626657?pwd=dlJ2aFU4MEJISU1nS3hYSW5LQVFmQT09)
-
-Team 6:
-
-[https://us02web.zoom.us/j/89253200447?pwd=cWpNd0J0cFlrMkxMaFRrRjlhZjZyZz09](https://us02web.zoom.us/j/89253200447?pwd=cWpNd0J0cFlrMkxMaFRrRjlhZjZyZz09)
-
-Team 7:
-
-[https://us02web.zoom.us/j/83817866495?pwd=WVM5V0hsTFZTcjhhN3dnbTErTm4zdz09](https://us02web.zoom.us/j/83817866495?pwd=WVM5V0hsTFZTcjhhN3dnbTErTm4zdz09)
-
-Team 8:
-
-[https://us02web.zoom.us/j/89673434880?pwd=MmYvWE1qRG5JbS9yQ3JSb2NxcC9NZz09](https://us02web.zoom.us/j/89673434880?pwd=MmYvWE1qRG5JbS9yQ3JSb2NxcC9NZz09)
-
-Team 9:
-
-[https://us02web.zoom.us/j/84547362023?pwd=Qm9BZ3R6Y2ZMODNxS3J3R3dndEEyQT09](https://us02web.zoom.us/j/84547362023?pwd=Qm9BZ3R6Y2ZMODNxS3J3R3dndEEyQT09)
 
 <br/><br/>
 
@@ -215,6 +199,7 @@ The Hackathon and conference is organised by bit.bio and Cytodata together. All 
 
 This will allow anyone to use freely, to build on the community expertise as in the past years and to enjoy the occasion to build connections, learn about new opportunities to share experience with other participants.
 
+
 <br/><br/>
 
 ## Questions?
@@ -222,6 +207,7 @@ This will allow anyone to use freely, to build on the community expertise as in 
 Feel free to reach us out on the dedicated zoom main hackathon channel.
 Alternatively please feel free to post on the cytodata slack channel.
 See [https://society.cytodata.org](https://society.cytodata.org) and [https://www.bit.bio/events/cytodata2021](https://www.bit.bio/events/cytodata2021)
+Git link: [https://github.com/Esme233/Cytodata-hackathon-2021](https://github.com/Esme233/Cytodata-hackathon-2021)
 
 
 
