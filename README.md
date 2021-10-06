@@ -121,7 +121,7 @@ If you find the Test.zip too large to download, you can download separately subs
 <br/>
 
 
-We have done some preliminary colony segmentation using Cell Profiler. We have not segmented further objects inside each colony. The measurements for colony segmentation will be found in the same folders, as .csv files. Feel free to use any of the parameters as a starting point to analyse colony pluripotency state: colony area, diameter, circularity, cell distances, cell morphology, any of the above, combined cell profiler features, multidimensional hyperspaces, etc.
+We have done some preliminary colony segmentation using Cell Profiler. We have not segmented further objects inside each colony. The measurements for colony segmentation can be downloaded here as csv files: [docs.csv](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/docs_csv.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PS6T2VXYB%2F20211006%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211006T134814Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f4fa777639caf928e59ac689f0cc4ca68a38a34ec3e37fd1f94be4faf213b461). Feel free to use any of the parameters as a starting point to analyse colony pluripotency state: colony area, diameter, circularity, cell distances, cell morphology, any of the above, combined cell profiler features, multidimensional hyperspaces, etc.
 
 Thanks to Cytodata and all scientists in our Cellular Phenotyping team for support. The experiments for this dataset were set up and acquired by Sarah Hussain, Stefan Milde, Fiona Connolly at bit.bio using Sartorius Incucyte and VIPS devices.
 
