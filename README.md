@@ -141,33 +141,33 @@ Feel free to use the [Slack channel](https://cytodata.slack.com/ssb/redirect#/sh
 ## When (all times in BST, UK time)
 
 Wednesday 6th October:
- - Dataset and instructions released.
- - Please make sure you can download the data and read me.
+ - Dataset and instructions released
+ - Please make sure you can download the data and read me
 
 
 Friday 8th October:
- - 13:00-14:00: Introduction to dataset.
- - 14:00-16:00: Open desk for participants to ask questions.
+ - 13:00-14:00: Introduction to dataset
+ - 14:00-16:00: Open desk for participants to ask questions
 
 
 Monday 11th October:
- - 13:00-14:00: Refresher for dataset background.
- - 14:00-16:00: Open desk for participants to ask questions.
+ - 13:00-14:00: Refresher for dataset background
+ - 14:00-16:00: Open desk for participants to ask questions
 
 
 Wednesday 13th October:
  - 13:00-16:30: Cytodata conference
- - 16:30-18:00: Supervised hacking.
+ - 16:30-18:00: Supervised hacking
 
 
 Thursday 14th October:
  - 13:00-16:30: Cytodata conference
- - 16:30-18:00: Supervised hacking.
+ - 16:30-18:00: Supervised hacking
 
 
 Friday 15th October:
- - 13:00-14:00: Supervised hacking wrap up.
- - 14:00-17:00: All hackers to showcase their work.
+ - 13:00-14:00: Supervised hacking wrap up
+ - 14:00-17:00: All hackers to showcase their work
  - 17:00-17:30: The Jury gathers
  - 17:30-18:00: Closure ceremony and winners communicated
 
@@ -206,7 +206,9 @@ This will allow anyone to use freely, to build on the community expertise as in 
 
 Feel free to reach us out on the dedicated zoom main hackathon channel.
 Alternatively please feel free to post on the cytodata slack channel.
+
 See [https://society.cytodata.org](https://society.cytodata.org) and [https://www.bit.bio/events/cytodata2021](https://www.bit.bio/events/cytodata2021)
+
 Git link: [https://github.com/Esme233/Cytodata-hackathon-2021](https://github.com/Esme233/Cytodata-hackathon-2021)
 
 
