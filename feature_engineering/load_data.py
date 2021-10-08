@@ -29,7 +29,7 @@ def load_biobit_features(
             "Metadata_Frame",  # always 0
             "Location_CenterMassIntensity_Z_Phase",  # always 0
             "Location_Center_Z",  # always 0
-            "Number_Object_Number", # duplicate
+            "Number_Object_Number",  # duplicate
         ]
     )
     # Sample Name
@@ -71,5 +71,7 @@ def load_enriched_data(
 ):
     total_biobit = load_biobit_features(loc_good_biobit, loc_bad_biobit)
     add_circularity(total_biobit)
+    total_biobit["AreaShape_BoundingBoxMaximum_Width"] = total_biobit["AreaShape_BoundingBoxMaximum_X"] - total_biobit["AreaShape_BoundingBoxMinimum_X"]
+    total_biobit["AreaShape_BoundingBoxMaximum_Height"] = total_biobit["AreaShape_BoundingBoxMaximum_Y"] - total_biobit["AreaShape_BoundingBoxMinimum_Y"]
 
     return total_biobit
