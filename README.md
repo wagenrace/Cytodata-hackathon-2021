@@ -105,7 +105,7 @@ All data can be downlodaed using the following links:
 
 [Training.zip](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/Training.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PYQ7KGDWK%2F20211004%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211004T145706Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d91993d2e38ba2da13a2bd6d68a7ab8ad1990104d5c0dd005750128bb6381d8e) (4.7 GB)
 
-[Test.zip](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/Test.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PYQ7KGDWK%2F20211004%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211004T180937Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3f82c637be9310c3e46cbe2a7fa40b35844c77637121ceec9439ea6e50c8ff83) (27 GB)
+[Test.zip](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/Test.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PS6T2VXYB%2F20211008%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211008T153204Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bfeb82b5d4a1590a4a251205be99151c28eb4bd52bc2d5e895f03d4b78505091)
 
 If you find the Test.zip too large to download, you can download separately subsets of the Test dataset using links below:
 
