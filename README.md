@@ -62,9 +62,6 @@ How generalisable is your algorithm? Can it assess images independent of the tim
 
 
 ### Challenge 2b:
-Does your algorithm work on assessing images in the ‘Test 2b’ folder, which are acquired using another imaging device called VIPS (Verified In-situ Plate Seeding). This will give some insights into how agnostic of the device type your algorithms are.
-
-### Challenge 2c:
 Can you obtain spatial information from the images? Would you be able to tell which part of the colony is good and which part is bad for the images in our folders? You can start from training test1 and move onto the others too. 
 
 
@@ -98,9 +95,9 @@ Training set (Good - Bad - Empty)
 
 Test1 6550 files -> 13GB (containing time information)
 
-Test2 6550 files -> 13GB (scrambled from time information)
+Test2a 6550 files -> 13GB (scrambled from time information)
 
-Test3 252 files -> 6GB (images from another device)
+
 
 <br/>
 
@@ -116,7 +113,7 @@ If you find the Test.zip too large to download, you can download separately subs
 
 [Test 2a.zip](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/Test2a.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PYQ7KGDWK%2F20211004%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211004T223814Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e4ef0dba1ebe24def6d9d059481b3a3202442b0e6556c2983cc85944ef60e9da)
 
-[Test 2b.zip](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/Test2b.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PYQ7KGDWK%2F20211005%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211005T124231Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e1eba66516c8248eb7c077d3c409937ea7036db8915adb3a6289fe7b6fe5669a)
+
 
 <br/>
 
