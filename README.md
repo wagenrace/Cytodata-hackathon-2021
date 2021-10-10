@@ -17,7 +17,7 @@ Cell death or loss of pluripotency are common in iPSC culturing. Thus, assessing
 * ‘Bad’: Colonies with differentiated cells
 * ‘Empty’: Empty wells, no or very few cells
 
-We imaged human iPSC cells on 96-well plates over 2 weeks using the Incucyte and VIPS time-lapse imaging devices. For your convenience we provide a training set divided as above in good, bad, empty and test sets with real-life examples.
+We imaged human iPSC cells on 96-well plates over 2 weeks using Sartorius Incucyte device. For your convenience we provide a training set divided as above in good, bad, empty and test sets with real-life examples.
 
 Images will have single cells from early timepoints dividing to make colonies over time; feel free to take full advantage of cell morphology, colony morphology and/or context features such as how distant cells are to each other over time, etc..
 
@@ -120,7 +120,7 @@ If you find the Test.zip too large to download, you can download separately subs
 
 We have done some preliminary colony segmentation using Cell Profiler. We have not segmented further objects inside each colony. The measurements for colony segmentation can be downloaded here as csv files: [docs.csv](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/docs_csv.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PS6T2VXYB%2F20211006%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211006T134814Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f4fa777639caf928e59ac689f0cc4ca68a38a34ec3e37fd1f94be4faf213b461). Feel free to use any of the parameters as a starting point to analyse colony pluripotency state: colony area, diameter, circularity, cell distances, cell morphology, any of the above, combined cell profiler features, multidimensional hyperspaces, etc.
 
-Thanks to Cytodata and all scientists in our Cellular Phenotyping team for support. The experiments for this dataset were set up and acquired by Sarah Hussain, Stefan Milde, Fiona Connolly at bit.bio using Sartorius Incucyte and VIPS devices. The dataset was organised with the help from Sanaullah Nazir at bit.bio. 
+Thanks to Cytodata and all scientists in our Cellular Phenotyping team for support. The experiments for this dataset were set up and acquired by Sarah Hussain, Stefan Milde, Fiona Connolly at bit.bio using Sartorius Incucyte device. The dataset was organised with the help from Sanaullah Nazir at bit.bio. 
 
 
 <br/><br/>
