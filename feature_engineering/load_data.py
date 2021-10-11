@@ -1,5 +1,5 @@
 import pandas as pd
-from add_circularity import add_circularity
+from .add_circularity import add_circularity
 
 
 def load_biobit_features(

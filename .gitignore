@@ -120,3 +120,4 @@ messages/
 .python_packages
 .vscode
 env.list
+*.jpeg
