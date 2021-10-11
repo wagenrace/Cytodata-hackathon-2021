@@ -17,7 +17,7 @@ Cell death or loss of pluripotency are common in iPSC culturing. Thus, assessing
 * ‘Bad’: Colonies with differentiated cells
 * ‘Empty’: Empty wells, no or very few cells
 
-We imaged human iPSC cells on 96-well plates over 2 weeks using the Incucyte and VIPS time-lapse imaging devices. For your convenience we provide a training set divided as above in good, bad, empty and test sets with real-life examples.
+We imaged human iPSC cells on 96-well plates over 2 weeks using Sartorius Incucyte device. For your convenience we provide a training set divided as above in good, bad, empty and test sets with real-life examples.
 
 Images will have single cells from early timepoints dividing to make colonies over time; feel free to take full advantage of cell morphology, colony morphology and/or context features such as how distant cells are to each other over time, etc..
 
@@ -62,9 +62,6 @@ How generalisable is your algorithm? Can it assess images independent of the tim
 
 
 ### Challenge 2b:
-Does your algorithm work on assessing images in the ‘Test 2b’ folder, which are acquired using another imaging device called VIPS (Verified In-situ Plate Seeding). This will give some insights into how agnostic of the device type your algorithms are.
-
-### Challenge 2c:
 Can you obtain spatial information from the images? Would you be able to tell which part of the colony is good and which part is bad for the images in our folders? You can start from training test1 and move onto the others too. 
 
 
@@ -98,9 +95,9 @@ Training set (Good - Bad - Empty)
 
 Test1 6550 files -> 13GB (containing time information)
 
-Test2 6550 files -> 13GB (scrambled from time information)
+Test2a 6550 files -> 13GB (scrambled from time information)
 
-Test3 252 files -> 6GB (images from another device)
+
 
 <br/>
 
@@ -108,7 +105,7 @@ All data can be downlodaed using the following links:
 
 [Training.zip](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/Training.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PYQ7KGDWK%2F20211004%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211004T145706Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d91993d2e38ba2da13a2bd6d68a7ab8ad1990104d5c0dd005750128bb6381d8e) (4.7 GB)
 
-[Test.zip](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/Test.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PYQ7KGDWK%2F20211004%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211004T180937Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3f82c637be9310c3e46cbe2a7fa40b35844c77637121ceec9439ea6e50c8ff83) (27 GB)
+[Test.zip](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/Test.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PS6T2VXYB%2F20211008%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211008T153204Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bfeb82b5d4a1590a4a251205be99151c28eb4bd52bc2d5e895f03d4b78505091)
 
 If you find the Test.zip too large to download, you can download separately subsets of the Test dataset using links below:
 
@@ -116,14 +113,14 @@ If you find the Test.zip too large to download, you can download separately subs
 
 [Test 2a.zip](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/Test2a.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PYQ7KGDWK%2F20211004%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211004T223814Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e4ef0dba1ebe24def6d9d059481b3a3202442b0e6556c2983cc85944ef60e9da)
 
-[Test 2b.zip](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/Test2b.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PYQ7KGDWK%2F20211005%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211005T124231Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e1eba66516c8248eb7c077d3c409937ea7036db8915adb3a6289fe7b6fe5669a)
+
 
 <br/>
 
 
-We have done some preliminary colony segmentation using Cell Profiler. We have not segmented further objects inside each colony. The measurements for colony segmentation can be downloaded here as csv files: [docs.csv](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/docs_csv.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PS6T2VXYB%2F20211006%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211006T134814Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f4fa777639caf928e59ac689f0cc4ca68a38a34ec3e37fd1f94be4faf213b461). Feel free to use any of the parameters as a starting point to analyse colony pluripotency state: colony area, diameter, circularity, cell distances, cell morphology, any of the above, combined cell profiler features, multidimensional hyperspaces, etc.
+We have done some preliminary colony segmentation using Cell Profiler. We have not segmented further objects inside each colony. The measurements for colony segmentation can be downloaded here as csv files: [docs.csv](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/docs_csv.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PS6T2VXYB%2F20211006%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211006T134814Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f4fa777639caf928e59ac689f0cc4ca68a38a34ec3e37fd1f94be4faf213b461). The Cell Profiler pipeline can be found in this main branch as '2021-09-30 incucyte mask processing v1.0.cpproj'. Feel free to use any of the parameters as a starting point to analyse colony pluripotency state: colony area, diameter, circularity, cell distances, cell morphology, any of the above, combined cell profiler features, multidimensional hyperspaces, etc.
 
-Thanks to Cytodata and all scientists in our Cellular Phenotyping team for support. The experiments for this dataset were set up and acquired by Sarah Hussain, Stefan Milde, Fiona Connolly at bit.bio using Sartorius Incucyte and VIPS devices. The dataset was organised with the help from Sanaullah Nazir at bit.bio. 
+Thanks to Cytodata and all scientists in our Cellular Phenotyping team for support. The experiments for this dataset were set up and acquired by Sarah Hussain, Stefan Milde, Fiona Connolly at bit.bio using Sartorius Incucyte device. The dataset was organised with the help from Sanaullah Nazir at bit.bio. 
 
 
 <br/><br/>
