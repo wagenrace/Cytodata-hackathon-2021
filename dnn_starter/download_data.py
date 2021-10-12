@@ -16,13 +16,18 @@ bitbio_data = load_biobit_features()
 
 good_loc = r"D:\CytoData2021\Training\Good"
 bad_loc = r"D:\CytoData2021\Training\Bad"
-image_loc = r"D:\CytoData2021\Training\Good\Good_1_11d04h00m.tif"
 
 all_image_names = bitbio_data.index.to_numpy()
 for image_name in all_image_names:
     bouding_boxes = bitbio_data.loc[[image_name]]
+    if image_name.startswith("Good"):
+        image_loc = os.path.join(good_loc, image_name)
+    else:
+        image_loc = os.path.join(bad_loc, image_name.replace(".tiff", ".tif"))
     full_image = cv2.imread(image_loc)
     for index, row in bouding_boxes.iterrows():
+        if row.ObjectNumber != 1:
+            continue
         bounding_box = row[
             [
                 "AreaShape_BoundingBoxMinimum_X",
